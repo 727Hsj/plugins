@@ -1,8 +1,3 @@
-[package]
-name = "plugins"
-version = "0.1.0"
-edition = "2024"
-
 # 配置 workspace
 [workspace]
 members = [
@@ -15,6 +10,3 @@ members = [
 log = "0.4"
 memtester_demo = { path = "memtester_demo" }
 stressapptest_demo = { path = "stressapptest_demo" }
-
-[dependencies]
-stressapptest_demo = { workspace = true }

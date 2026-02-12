@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 检查 stressapptest 是否在预期的编译路径
-STRESSAPPTEST_BIN="../../stressapptest/src/stressapptest"
+STRESSAPPTEST_BIN="/home/kylin/code/plugins_source_code/stressapptest/src/stressapptest"
 
 if [ -f "$STRESSAPPTEST_BIN" ]; then
     echo "Found stressapptest at $STRESSAPPTEST_BIN"

@@ -2,8 +2,7 @@
 Learn how to use various plugins
 
 ## how to use
-1. in Cargo.toml， add deps what you want to use, such as `stressapptest_demo = { workspace = true }`
-2. in src/main.rs, modify some codes to use your plugins.
+cargo run -p xxx_demo
 
 
 ## 种类
