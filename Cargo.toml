@@ -1,20 +1,14 @@
-[package]
-name = "plugins"
-version = "0.1.0"
-edition = "2024"
-
 # 配置 workspace
 [workspace]
 members = [
     "memtester_demo",
     "stressapptest_demo",
+    "valgrind_demo",
     # 后续添加的插件目录将列在这里，例如 "log-demo"
 ]
 
 [workspace.dependencies]
 log = "0.4"
-memtester_demo = { path = "memtester_demo" }
-stressapptest_demo = { path = "stressapptest_demo" }
-
-[dependencies]
-stressapptest_demo = { workspace = true }
+env_logger = "0.9"
+#memtester_demo = { path = "memtester_demo" }
+#stressapptest_demo = { path = "stressapptest_demo" }
