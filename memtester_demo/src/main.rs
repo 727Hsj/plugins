@@ -1,6 +1,6 @@
-use std::process::{Command, Stdio};
-use std::path::Path;
 use log::*;
+use std::path::Path;
+use std::process::{Command, Stdio};
 
 pub fn run_memtester() {
     // 假设 memtester 可执行文件在 workspace 的 memtester/src/memtester
@@ -30,7 +30,7 @@ pub fn run_memtester() {
             } else {
                 info!("memtester failed with exit code: {:?}", s.code());
             }
-        },
+        }
         Err(e) => {
             info!("Failed to execute memtester: {}", e);
             info!("Make sure it is compiled in ../../memtester/ or installed globally.");
