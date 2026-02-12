@@ -39,6 +39,6 @@ pub fn run_memtester() {
 }
 
 fn main() {
-    println!("Hello, world!");
+    env_logger::init();
     run_memtester();
 }

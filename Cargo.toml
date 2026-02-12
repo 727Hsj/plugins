@@ -8,5 +8,6 @@ members = [
 
 [workspace.dependencies]
 log = "0.4"
+env_logger = "0.9"
 memtester_demo = { path = "memtester_demo" }
 stressapptest_demo = { path = "stressapptest_demo" }

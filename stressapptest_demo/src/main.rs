@@ -46,6 +46,6 @@ pub fn run_stressapptest() {
 }
 
 fn main() {
-    println!("Hello, world!");
+    env_logger::init();
     run_stressapptest();
 }
