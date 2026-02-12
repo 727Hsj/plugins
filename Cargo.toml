@@ -3,6 +3,7 @@
 members = [
     "memtester_demo",
     "stressapptest_demo",
+    "valgrind_demo",
     # 后续添加的插件目录将列在这里，例如 "log-demo"
 ]
 
