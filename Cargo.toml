@@ -1,6 +1,7 @@
 # 配置 workspace
 [workspace]
 members = [
+    "lmsensors_demo",
     "memtester_demo",
     "stressapptest_demo",
     "valgrind_demo",
